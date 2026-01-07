@@ -2,5 +2,5 @@ services:
   - type: web
     name: my-game-website
     buildCommand: npm install && npm run build # Example build command (adjust if using yarn, no build step, etc.)
-    publishDirectory: dist # Directory containing the final build files (adjust as needed, e.g., 'public', '.', etc.)
+    publishDirectory: main # Directory containing the final build files (adjust as needed, e.g., 'public', '.', etc.)
     # The 'plan: free' is the default for static sites and not necessary to explicitly state.
