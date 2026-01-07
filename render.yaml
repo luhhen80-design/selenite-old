@@ -1,5 +1,5 @@
 services:
-  - type: static site
+  - type: web
     name: my-game-website
     buildCommand: npm install && npm run build # Example build command (adjust if using yarn, no build step, etc.)
     publishDirectory: dist # Directory containing the final build files (adjust as needed, e.g., 'public', '.', etc.)
